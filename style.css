@@ -215,7 +215,8 @@ body {
 .mainbar .mainbar-skills {
   display: none;
   max-width: 952px;
-  padding-bottom: 3rem;
+  max-height: 100%;
+  padding-bottom: 2rem;
   overflow: hidden;
   margin-top: 50px;
 }
@@ -236,26 +237,34 @@ body {
   max-width: 742px;
   max-height: 100%;
   padding-bottom: 30px;
-  background-color: #F7ECDE;
-  border-radius: 18px;
   overflow: hidden;
 }
-.mainbar .mainbar-skills .skills-wrapper-details {
-  margin-top: 40px;
-  width: 80%;
-}
-.mainbar .mainbar-skills .skills-wrapper-details p {
-  color: #54BAB9;
-  font-size: 24px;
+.mainbar .mainbar-skills .skills-wrapper .category-title {
+  font-size: 20px;
   font-weight: 600;
+  color: white;
+  width: 138px;
+  height: 43px;
+  background-color: rgba(101, 243, 221, 0.4);
+  border-radius: 45px;
 }
-.mainbar .mainbar-skills .skills-wrapper-details .progress {
-  background-color: #FFF;
-  height: 10px;
-  margin-bottom: 30px;
+.mainbar .mainbar-skills .skills-wrapper .category-title p {
+  padding-top: 6px;
 }
-.mainbar .mainbar-skills .skills-wrapper-details .progress-bar {
-  background-color: #2DD4BF;
+.mainbar .mainbar-skills .skills-wrapper .category-skill {
+  font-weight: 600;
+  font-size: 20px;
+  color: #0D9488;
+}
+.mainbar .mainbar-skills .skills-wrapper .category-skill .detail {
+  max-width: 100%;
+  height: 41px;
+  background-color: #F7ECDE;
+  border-radius: 45px;
+  padding: 0 20px;
+}
+.mainbar .mainbar-skills .skills-wrapper .category-skill .detail p {
+  padding-top: 6px;
 }
 .mainbar .mainbar-projects {
   display: none;
