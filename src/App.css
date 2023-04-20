@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: black !important;
+}
+
+.App {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.bars {
+  display: none;
+}
+
+.image-hero {
+  transition: ease all .5s;
+}
+
+.hero-name {
+  font-size: 66px;
+}
+
+.hero-wrapper {
+  gap: 52px;
+  animation: floating 2s infinite;
+}
+
+.image-about-wrapper {
+  display: flex;
+  justify-content: start;
+}
+
+
+.image-project-wrapper {
+  display: flex;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.project-display {
+  gap: 100px;
+}
+
+@media (max-width:820px) {
+  .rahmadani {
+    display: none;
+  }
+
+  .nav-items a {
+    display: none;
+  }
+
+  .reach-me-btn {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+  }
+
+  .image-hero {
+    width: 270px;
+  }
+
+  .hero-name {
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .hero-wrapper {
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .hero-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .image-about-wrapper {
+    justify-content: center;
+  }
+
+
+  .about-text {
+    text-align: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .image-about {
+    width: 250px;
+  }
+
+  .content-bio {
+    text-align: center;
+  }
+
+  .contacts-wrapper {
+    justify-content: center;
+  }
+
+  .image-project {
+    width: 290px;
+  }
+
+  .project-display {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+
+
+  .demo-button-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+}
