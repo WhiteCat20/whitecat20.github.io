@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6025dd6e.css",
-    "main.js": "/static/js/main.267e6eb5.js",
+    "main.css": "/static/css/main.70127486.css",
+    "main.js": "/static/js/main.634df342.js",
+    "static/media/faiz-tunjungan-2.JPG": "/static/media/faiz-tunjungan-2.095de36704b10110de61.JPG",
     "static/media/Screenshot 2023-04-05 041802.png": "/static/media/Screenshot 2023-04-05 041802.bb515b87e1f52c00bf14.png",
-    "static/media/faiz-jahim.png": "/static/media/faiz-jahim.2323f7c11bc64d38d949.png",
+    "static/media/faiz-tunjungan.png": "/static/media/faiz-tunjungan.208f4e8b1dafec00734a.png",
     "static/media/Screenshot 2023-04-19 053712.png": "/static/media/Screenshot 2023-04-19 053712.41fff56592fd086c1a2f.png",
-    "static/media/faiz-ecs.png": "/static/media/faiz-ecs.79685250974150df0810.png",
     "index.html": "/index.html",
     "static/media/indonesia-flag-icon.svg": "/static/media/indonesia-flag-icon.103c79f7ce98c472f7ad3796ef311318.svg",
-    "main.6025dd6e.css.map": "/static/css/main.6025dd6e.css.map",
-    "main.267e6eb5.js.map": "/static/js/main.267e6eb5.js.map"
+    "main.70127486.css.map": "/static/css/main.70127486.css.map",
+    "main.634df342.js.map": "/static/js/main.634df342.js.map"
   },
   "entrypoints": [
-    "static/css/main.6025dd6e.css",
-    "static/js/main.267e6eb5.js"
+    "static/css/main.70127486.css",
+    "static/js/main.634df342.js"
   ]
 }
