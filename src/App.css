@@ -16,6 +16,8 @@ body {
 
 .image-hero {
   transition: ease all .5s;
+  width: 25%;
+  border-radius: 100%;
 }
 
 .hero-name {
@@ -104,9 +106,9 @@ body {
     flex-direction: column;
   }
 
-  .image-about {
+  /* .image-about {
     width: 250px;
-  }
+  } */
 
   .content-bio {
     text-align: center;

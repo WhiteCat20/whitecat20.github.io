@@ -1,5 +1,5 @@
 import React from "react";
-import fotoFaiz from "../img/faiz-ecs.png";
+import fotoFaiz from "../img/faiz-tunjungan.png";
 
 const Hero = () => {
   return (

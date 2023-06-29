@@ -1,5 +1,6 @@
 import React from "react";
-import fotoFaiz2 from "../img/faiz-jahim.png";
+import fotoFaiz2 from "../img/faiz-tunjungan-2.JPG";
+// import fotoFaiz2 from "../img/faiz-jahim.png";
 import indoFlag from "../img/indonesia-flag-icon.svg";
 
 const About = () => {
@@ -10,6 +11,7 @@ const About = () => {
         target="_blank"
         className="contact-badge"
         style={contactBadge}
+        rel="noreferrer"
       >
         <i class={icon}></i>
       </a>
@@ -21,6 +23,7 @@ const About = () => {
         href="https://docs.google.com/document/d/1YhV31VOJA2gVrpFs9YfgVGMeQerLJfe9G3KosLwGsAM/edit?usp=sharing"
         target="_blank"
         style={cvButton}
+        rel="noreferrer"
       >
         {children}
       </a>
@@ -51,15 +54,19 @@ const About = () => {
             <img
               className="image-about img-fluid"
               src={fotoFaiz2}
-              alt="faiz pakai jahim"
+              width="450px"
+              height="150px"
+              alt="faiz about"
+              style={{
+                borderRadius: "16px",
+              }}
             />
           </div>
-
           <div className="content-bio">
             <h5 style={{ fontWeight: "500" }}>
               Surabaya, Indonesia{" "}
               <span>
-                <img src={indoFlag} width="20px" />
+                <img src={indoFlag} width="20px" alt="indo flag" />
               </span>
             </h5>
             <h1>M. Faiz Rahmadani</h1>
