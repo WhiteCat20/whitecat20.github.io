@@ -70,7 +70,7 @@ const About = () => {
               </span>
             </h5>
             <h1>M. Faiz Rahmadani</h1>
-            <h4 style={{ color: "#D9D9D9" }}>Engineering Student</h4>
+            <h4 style={{ color: "#D9D9D9" }}>Software Engineer</h4>
             <section className="contact-me" style={{ marginTop: "1rem" }}>
               <h3 style={{ fontWeight: "700" }}>Contact me!</h3>
               <div
@@ -91,7 +91,7 @@ const About = () => {
                 />
               </div>
               <div className="download-cv" style={{ marginTop: "2rem" }}>
-                <DownloadCv>Download CV</DownloadCv>
+                <DownloadCv>Check out my CV</DownloadCv>
               </div>
             </section>
           </div>

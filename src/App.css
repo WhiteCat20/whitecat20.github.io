@@ -26,7 +26,7 @@ body {
 
 .hero-wrapper {
   gap: 52px;
-  animation: floating 2s infinite;
+  /* animation: floating 2s infinite; */
 }
 
 .image-about-wrapper {

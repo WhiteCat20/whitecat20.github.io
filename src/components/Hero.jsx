@@ -21,7 +21,7 @@ const Hero = () => {
             Hi!, I am <span style={{ color: "#A31ACB" }}>Faiz</span>
           </h1>
           <h3 className="hero-title">
-            <span style={{ color: "#A31ACB" }}>Fullstack</span> Developer
+            <span style={{ color: "#A31ACB" }}>Software</span> Engineer
           </h3>
         </section>
       </div>

@@ -8,7 +8,7 @@ const Footer = () => {
         <span style={{ color: "red" }}>
           <i class="fa-solid fa-heart"></i>
         </span>{" "}
-        by Faiz, 2023
+        by Faiz, 2025
       </p>
     </div>
   );
