@@ -1,21 +1,23 @@
 import "./App.css";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
 
 const App = () => {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Blog />
-      <Footer />
-    </div>
+    <>
+      <div className="App" style={{
+        marginTop: '20%',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <h1>Big changes will come, still cooking...</h1>
+        <span style={{ fontSize: 90 }}>🍳</span>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <small style={{ textAlign: 'center', color: 'white' }}>Awesome ideas crafted by {" "}
+          <a href="https://www.linkedin.com/in/fzrahmadan/">faizrahmadani</a></small>
+      </div>
+    </>
+
   );
 };
 
